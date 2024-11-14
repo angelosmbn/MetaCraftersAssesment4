@@ -176,6 +176,7 @@ export default function VotingPage() {
     <main className="container">
       <header>
         <h1>Welcome to the Voting System!</h1>
+        <p>Owner: {account}</p>
       </header>
       {initUser()} {/* Render the UI based on user state */}
       <style jsx>{`
